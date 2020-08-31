@@ -1,0 +1,205 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+#projects {
+  padding-top: 100px;
+}
+
+#contact {
+  padding-top: 50px;
+}
+
+.blurb-text {
+  font-size: 2em
+}
+
+.splash-landing {
+  background-image: url("./mpls-dusk.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+blockquote {
+  color: white;
+  text-align: center;
+  /* background-color: black; */
+  padding: 20px;
+  /* opacity: 0.7; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blurb-paragraph {
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+
+.typewriter {
+  background-color: black;
+  opacity: .7;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.navy {
+  background-color: navy;
+}
+
+.project-header {
+  font-size: 4rem;
+}
+
+.projects {
+  height: 100vh;
+}
+
+.handshake {
+  background-image: url("./handshake.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: black;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+/* .card {
+ 
+} */
+
+/* .handshake h2, h3 {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  opacity: 0.7;
+} */
+
+@media only screen and (max-width: 768px) {
+  .blurb-paragraph {
+    font-size: 1.65rem;
+  }
+}
+
+.footer {
+  background: linear-gradient(349deg, #020733, #6280cc);
+  /* margin-top: 200px; */
+  height: 25vh;
+}
+
+.fab {
+  font-size: 3rem;
+  color: white;
+}
+
+.far {
+  color: white;
+  font-size: .8rem;
+}
+
+.last-name {
+  color: red;
+}
+
+.project-btn {
+  background: linear-gradient(349deg, #020733, #6280cc);
+  color: white;
+}
+
+.submit-button {
+  background: linear-gradient(349deg, #020733, #6280cc);
+  width: 25%;
+  margin: 25px 0;
+}
+
+.about-image {
+  background-image: url("./laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 67.5vh;
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.about-text p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0 70px;
+  line-height: 2.2rem;
+}
+
+/* .navbar {
+  position: fixed;
+} */
