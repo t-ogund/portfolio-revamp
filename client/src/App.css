@@ -42,11 +42,11 @@ html {
 }
 
 #projects {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #contact {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .blurb-text {
@@ -59,6 +59,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.navbar-across {
+  
+}
+
+.project-container {
+  height: 100%;
 }
 
 blockquote {
@@ -180,6 +188,8 @@ blockquote {
   background-position: center;
   background-repeat: no-repeat;
   height: 67.5vh;
+  /* border-radius: 50%; */
+  /* padding: 15px; */
 }
 
 .about-text {
@@ -198,6 +208,22 @@ blockquote {
   font-weight: 500;
   padding: 0 70px;
   line-height: 2.2rem;
+}
+
+/* .project-link-container {
+  display: "flex";
+  align-self: "center";
+  background-color: "blue"
+} */
+
+.project-link, .contact-link {
+  color:gray;
+  font-weight: 300;
+}
+
+.project-link:hover, .contact-link:hover {
+  text-decoration: none;
+  color: #212529;;
 }
 
 /* .navbar {

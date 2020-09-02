@@ -34,6 +34,7 @@ class Contact extends React.Component {
             phoneNumber,
             message
         })
+        
     }
 
     render() {
@@ -71,21 +72,21 @@ class Contact extends React.Component {
                             <Row className="form-group">
                                 <Label htmlFor="phoneNumber" md={2}>Phone</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="text" name="phoneNumber" placeholder="Phone Number" onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="text" name="phoneNumber" placeholder="(000) 000-0000" onChange={this.handleChange} />
                                 </Col>
                             </Row>
 
                             <Row className="form-group">
                                 <Label htmlFor="email" md={2}>E-Mail</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="email" name="email" placeholder="E-Mail Address" onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="email" name="email" placeholder="contact@mail.com" onChange={this.handleChange} />
                                 </Col>
                             </Row>
 
                             <Row className="form-group">
                                 <Label for="message" md={2}>Message</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="textarea" name="message" onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="textarea" name="message" placeholder="Type your message here..." onChange={this.handleChange} />
                                 </Col>
                             </Row>
                             

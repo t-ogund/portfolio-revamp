@@ -11,6 +11,7 @@ import {
 
 import About from './AboutComponent';
 import { Switch, Route, Redirect, Link } from 'react-router-dom';
+import { HashLink as HLink} from "react-router-hash-link";
 
 // import {
 //   Link,
@@ -31,8 +32,10 @@ function Navbar_Component(props) {
       <About />
     )
   }
+  
+
   return (
-      <Navbar className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <Navbar className="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-across">
         <NavbarBrand className="navbar-brand" href="#">
           Toye <span className="last-name">Ogundepo</span>
         </NavbarBrand>
@@ -45,21 +48,22 @@ function Navbar_Component(props) {
                   </NavLink>
                 </NavItem>
 
-                <NavItem>
-                  <NavLink href="#projects">Projects</NavLink> 
+                <NavItem style={{display: "flex", alignItems: "center"}}>
+                  <HLink className="project-link" tag={Link} to="/#projects">Projects</HLink> 
                 </NavItem>
 
                 <NavItem>
                   <NavLink tag={Link} to="/about">About</NavLink>
                 </NavItem>
 
-                <NavItem>
-                  <NavLink href="#contact">Contact</NavLink>
+                <NavItem style={{display: "flex", alignItems: "center"}}>
+                  <HLink className="contact-link" tag={Link} to="/#contact">Contact</HLink>
                 </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
   );
+
 }
 
 // class Section extends React.Component {

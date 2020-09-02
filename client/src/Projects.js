@@ -13,7 +13,7 @@ class Projects extends React.Component {
             // map
 
             <React.Fragment>
-                <div className="container mt-5 mb-5">
+                <div className="container mt-5 mb-5 project-container">
                     <div className="row" id="projects">
                         <div className="col-md-12 d-flex justify-content-center mb-5">
                             <h2 className="project-header">Projects</h2>
