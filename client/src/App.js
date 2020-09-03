@@ -9,8 +9,6 @@ import { Contact, Form_Component } from './Contact';
 import Footer from './Footer';
 import AboutComponent from './AboutComponent';
 import Home from "./Home";
-// import { Link, DirectLink, Element, Events, 
-//   animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 import './App.css';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';

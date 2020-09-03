@@ -16,6 +16,7 @@ class Contact extends React.Component {
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        
     }
 
     handleChange = e => {
@@ -24,8 +25,17 @@ class Contact extends React.Component {
 
     async handleSubmit(e) {
         e.preventDefault()
+        this.setState({
+            firstName: "",
+            lastName: "",
+            email: "",
+            phoneNumber: "",
+            message: ""
+        })   
 
         const { firstName, lastName, email, phoneNumber, message } = this.state
+
+        
 
         const form = await axios.post("/api/form", {
             firstName,
@@ -34,7 +44,6 @@ class Contact extends React.Component {
             phoneNumber,
             message
         })
-        
     }
 
     render() {
@@ -58,35 +67,40 @@ class Contact extends React.Component {
                             <Row className="form-group">
                                 <Label htmlFor="firstName" md={2}>First</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} className="input" type="text" name="firstName" placeholder="First Name" onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} className="input" type="text" name="firstName" initialvalue="" placeholder="First Name" onChange={this.handleChange} 
+                                    required value={this.state.firstName}/>
                                 </Col>
                             </Row>
 
                             <Row className="form-group">
                                 <Label htmlFor="lastName" md={2}>Last</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="text" name="lastName" placeholder="Last Name" onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="text" name="lastName" placeholder="Last Name" onChange={this.handleChange} 
+                                    required value={this.state.lastName} />
                                 </Col>
                             </Row>
                             
                             <Row className="form-group">
                                 <Label htmlFor="phoneNumber" md={2}>Phone</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="text" name="phoneNumber" placeholder="(000) 000-0000" onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="number" name="phoneNumber" placeholder="000-000-0000" onChange={this.handleChange} 
+                                    value={this.state.phoneNumber} />
                                 </Col>
                             </Row>
 
                             <Row className="form-group">
                                 <Label htmlFor="email" md={2}>E-Mail</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="email" name="email" placeholder="contact@mail.com" onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="email" name="email" placeholder="contact@mail.com" onChange={this.handleChange} 
+                                    value={this.state.email} required />
                                 </Col>
                             </Row>
 
                             <Row className="form-group">
                                 <Label for="message" md={2}>Message</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="textarea" name="message" placeholder="Type your message here..." onChange={this.handleChange} />
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="textarea" name="message" placeholder="Type your message here..." onChange={this.handleChange} 
+                                    value={this.state.message} required />
                                 </Col>
                             </Row>
                             

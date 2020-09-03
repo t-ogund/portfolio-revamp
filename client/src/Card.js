@@ -10,7 +10,7 @@ class Card extends React.Component {
         return(
             <React.Fragment>
                 <div class="card" style={{width: "18em"}}>
-                    <img src={this.props.image} class="card-img-top" alt="..."/>
+                    <img src={this.props.image} class="card-img-top layer" alt="..."/>
                     <div class="card-body">
                         <p style={{textAlign: "center", fontWeight: "500", fontSize: "1.2rem"}}class="card-text">{this.props.title}</p>
                         <p style={{textAlign: "center"}}>{this.props.tech}</p>
