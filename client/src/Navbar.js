@@ -32,8 +32,8 @@ function Navbar_Component(props) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
                 <NavItem>
-                  <NavLink tag={Link} to="/">
-                    Home <span class="sr-only">(current)</span>
+                  <NavLink href="/" tag={Link} to="/">
+                   Home <span class="sr-only">(current)</span>
                   </NavLink>
                 </NavItem>
 

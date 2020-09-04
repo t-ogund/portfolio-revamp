@@ -23,7 +23,7 @@ html {
 }
 
 .project-container {
-  height: 100%;
+  /* height: 100vh; */
 }
 
 blockquote {
@@ -73,7 +73,7 @@ blockquote {
 }
 
 .projects {
-  height: 100vh;
+  height: 100%;
 }
 
 .handshake {
@@ -160,6 +160,35 @@ blockquote {
   color: #212529;;
 }
 
-.layer:hover {
-  background-color: rgba(0,0,0,0);
+.image-container {
+  background-color: black;
+  height: 400px;
+  width: 400px;
 }
+
+.layer:hover {
+  border: 1px solid red;
+  background-color: rgba(0,0,0,.5);
+}
+
+.fa-chevron-up {
+  font-size: 3rem;
+  color: white;
+  padding: 0;
+}
+
+/* .tech-section {
+  padding: 0;
+} */
+
+@media screen and (max-width: 768px) {
+  #tech-section {
+    display: none;
+  }
+}
+
+/* .up-container {
+  display: flex;
+  background-color: purple;
+  justify-self: flex-end;
+} */
