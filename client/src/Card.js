@@ -14,7 +14,7 @@ class Card extends React.Component {
                         <div class="card-img-overlay"></div>
                     <div class="card-body">
                         <p style={{textAlign: "center", fontWeight: "500", fontSize: "1.2rem"}}class="card-text">{this.props.title}</p>
-                        <p style={{textAlign: "center"}}>{this.props.tech}</p>
+                        <p style={{textAlign: "center", backgroundColor: "purple"}}>{this.props.tech}</p>
                         <div class="btn-group d-flex justify-content-between" role="group" aria-label="Basic example">
                             <button type="button" class="btn project-btn" style={{width: "45%"}}><i class="fas fa-eye"></i> Project</button>
                             <button type="button" class="btn btn-secondary project-btn" style={{width: "45%"}}> Github</button>
