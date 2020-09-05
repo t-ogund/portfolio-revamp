@@ -21,9 +21,9 @@ class Projects extends React.Component {
                 <div className="container mt-5 mb-5 project-container">
                     <div id="tech-section">
                         <div className="row d-flex justify-content-center">
-                            <div className="col-sm-3 tech-section d-flex justify-content-center">
-                                <HTML style={{height: 150, width: 150}}/>
-                            </div>
+                                <div className="col-sm-3 tech-section d-flex justify-content-center">
+                                    <HTML style={{height: 150, width: 150}}/>
+                                </div>
                             <div className="col-sm-3 tech-section d-flex justify-content-center">
                                 <CSS style={{height: 150, width: 150}}/>
                             </div>
@@ -48,13 +48,16 @@ class Projects extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Starwatch" tech="Bootstrap, Javascript, API" image="./starwatch-standard.jpg"/>
+                            <Card title="Starwatch" tech="Bootstrap, Javascript, AJAX, NASA APOD API" image="./starwatch-standard.jpg"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Weather App" tech="HTML, CSS, Javascript, API" image="./weather-app.jpg"/>
+                            <Card title="Weather App" tech="HTML, CSS, Javascript, AJAX, Weatherbit API" image="./weather-app.jpg"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
                             <Card title="Restaurant Website" tech="Bootstrap, Javascript" image="./restaurant-site.jpg"/>
+                        </div>
+                        <div className="col-lg-4 mb-3 d-flex justify-content-center">
+                            <Card title="Portfolio" tech="React, Bootstrap, Node.JS" image="./portfoliov2.JPG"/>
                         </div>
                     </div>
                 </div>
