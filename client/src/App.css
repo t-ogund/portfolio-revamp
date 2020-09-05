@@ -31,7 +31,7 @@ blockquote {
   text-align: center;
   padding: 20px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .blurb-paragraph {
@@ -88,11 +88,27 @@ blockquote {
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .blurb-paragraph {
-    font-size: 1.65rem;
+    font-size: 2.08rem;
   }
 }
+
+@media screen and (max-width: 1003px) {
+  .blurb-paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .blurb-paragraph {
+    font-size: 1.5rem;
+  }
+  .intro {
+    display: none;
+  }
+}
+
 
 .footer {
   background: linear-gradient(349deg, #020733, #6280cc);
@@ -186,6 +202,8 @@ blockquote {
     display: none;
   }
 }
+
+
 
 /* .up-container {
   display: flex;
