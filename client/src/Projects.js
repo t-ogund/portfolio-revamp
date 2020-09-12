@@ -48,15 +48,15 @@ class Projects extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Starwatch" tech="Bootstrap, Javascript, AJAX, NASA APOD API" image="./starwatch-standard.jpg"
+                            <Card title="Starwatch" tech="Bootstrap, Javascript, AJAX, NASA APOD API" image="./starwatch-standard.JPG"
                             link="https://t-ogund.github.io/star-watch/"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Weather App" tech="HTML, CSS, Javascript, AJAX, Weatherbit API" image="./weather-app.jpg"
+                            <Card title="Weather App" tech="HTML, CSS, Javascript, AJAX, Weatherbit API" image="./weather-app.JPG"
                             link="https://t-ogund.github.io/js-weather-app/"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Restaurant Website" tech="Bootstrap, Javascript" image="./restaurant-site.jpg"
+                            <Card title="Restaurant Website" tech="Bootstrap, Javascript" image="./restaurant-site.JPG"
                             link="https://t-ogund.github.io/restaurant-website/"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
