@@ -161,6 +161,18 @@ blockquote {
   line-height: 2.2rem;
 }
 
+@media screen and (max-width: 911px) {
+  .about-text p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0;
+  line-height: 2.2rem;
+  }
+}
+
 .project-link, .contact-link {
   color: rgba(0,0,0,.5);
   font-weight: 400;
@@ -194,7 +206,8 @@ blockquote {
   }
 }
 
-#project-link {
+#project-link, #github-link {
   text-decoration: none;
   color: white;
 }
+

@@ -52,19 +52,19 @@ class Projects extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Starwatch" tech="Bootstrap, Javascript, AJAX, NASA APOD API" image="./starwatch-standard.JPG"
-                            link="https://t-ogund.github.io/star-watch/"/>
+                            <Card title="Starwatch" tech="Built with Bootstrap, Javascript, AJAX, NASA APOD API" image="./starwatch-standard.JPG"
+                            link="https://t-ogund.github.io/star-watch/" github="https://github.com/t-ogund/star-watch"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Weather App" tech="HTML, CSS, Javascript, AJAX, Weatherbit API" image="./weather-app.JPG"
-                            link="https://t-ogund.github.io/js-weather-app/"/>
+                            <Card title="Weather App" tech="Built with HTML, CSS, Javascript, AJAX, Weatherbit API" image="./weather-app.JPG"
+                            link="https://t-ogund.github.io/js-weather-app/" github="https://github.com/t-ogund/js-weather-app"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Restaurant Website" tech="Bootstrap, Javascript" image="./restaurant-site.JPG"
-                            link="https://t-ogund.github.io/restaurant-website/"/>
+                            <Card title="Restaurant Website" tech="Modern site built with Bootstrap and Javascript" image="./restaurant-site.JPG"
+                            link="https://t-ogund.github.io/restaurant-website/" github="https://github.com/t-ogund/restaurant-website"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Portfolio" tech="React, Bootstrap, Node.JS" image="./portfoliov2.JPG"/>
+                            <Card title="Portfolio" tech="Built with React, Bootstrap, and Node.JS" image="./portfoliov2.JPG" link="https://lit-reef-01007.herokuapp.com/" github="https://github.com/t-ogund/portfolio-new-v2"/>
                         </div>
                     </div>
                 </div>
