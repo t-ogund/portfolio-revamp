@@ -16,7 +16,7 @@ class Footer extends React.Component {
                     <div className="col d-flex justify-content-center align-items-center mt-5">
                         <a href="https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin mr-4"></i></a>
                         <a href="https://github.com/" target="_blank"><i className="fab fa-github-square"></i></a>
-                        <a href="" target="_blank"><i className="fab fa-twitter-square ml-4"></i></a>
+                        {/* <a href="" target="_blank"><i className="fab fa-twitter-square ml-4"></i></a> */}
                     </div>
                     <div className="col d-flex justify-content-center align-items-center mt-5 back-to-top">
                     <a href="#"><i class="fas fa-chevron-up"></i></a>

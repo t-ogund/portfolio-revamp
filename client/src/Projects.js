@@ -6,6 +6,7 @@ import { ReactComponent as CSS } from "./css-5.svg";
 import { ReactComponent as JS } from "./javascript.svg";
 import { ReactComponent as NODEJS } from "./nodejs.svg";
 import { ReactComponent as REACT } from "./react.svg";
+import { ReactComponent as BOOTSTRAP } from "./bootstrap-logo.svg";
 
 class Projects extends React.Component {
     constructor(props) {
@@ -33,10 +34,13 @@ class Projects extends React.Component {
                         </div>
                         <div className="row d-flex justify-content-center">
                             <div className="col-sm-3 tech-section d-flex justify-content-center">
-                                <NODEJS style={{height: 170, width: 170, paddingBottom: "0px"}}/>
+                                <BOOTSTRAP style={{height: 95, width: 95, paddingBottom: "0px", marginTop: "35px"}}/>
                             </div>
                             <div className="col-sm-3 tech-section d-flex justify-content-center">
                                 <REACT style={{height: 170, width: 170, paddingBottom: "0px"}}/>
+                            </div>
+                            <div className="col-sm-3 tech-section d-flex justify-content-center">
+                                <NODEJS style={{height: 170, width: 170, paddingBottom: "0px"}}/>
                             </div>
                         </div>
                     </div>

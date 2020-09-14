@@ -83,7 +83,7 @@ class Contact extends React.Component {
                             <Row className="form-group">
                                 <Label htmlFor="phoneNumber" md={2}>Phone</Label>
                                 <Col md={10}>
-                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="number" name="phoneNumber" placeholder="000-000-0000" onChange={this.handleChange} 
+                                    <Input style={{backgroundColor: "transparent", color: "white"}} type="text" name="phoneNumber" placeholder="000-000-0000" onChange={this.handleChange} pattern="\d{3}[\-]\d{3}[\-]\d{4}"
                                     value={this.state.phoneNumber} />
                                 </Col>
                             </Row>
