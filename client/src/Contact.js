@@ -123,16 +123,4 @@ class Contact extends React.Component {
     }
 }
 
-// class Form_Component extends React.Component {
-//     constructor(props) {
-//         super(props);
-//     }
-
-//     render() {
-//         return(
-            
-//         )
-//     }
-// }
-
 export default Contact

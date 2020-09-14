@@ -1,12 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 
 class Footer extends React.Component {
     constructor(props) {
         super(props);
-        // this.scrollToTop = this.scrollToTop.bind(this);
     }
 
     render() {
