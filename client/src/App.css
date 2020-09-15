@@ -104,6 +104,15 @@ blockquote {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .blurb-paragraph {
+    font-size: 1.2rem;
+  }
+  .intro {
+    display: none;
+  }
+}
+
 
 .footer {
   background: linear-gradient(349deg, #020733, #6280cc);
@@ -131,9 +140,16 @@ blockquote {
 
 .submit-button {
   background: linear-gradient(349deg, #020733, #6280cc);
-  width: 25%;
+  min-width: 25%;
   margin: 25px 0;
 }
+
+/* @media only screen and (max-width: 500px) {
+  .submit-button {
+    font-size: .5rem;
+    color: red;
+  }
+} */
 
 .about-image {
   background-image: url("./laptop.jpg");
