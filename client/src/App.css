@@ -144,13 +144,6 @@ blockquote {
   margin: 25px 0;
 }
 
-/* @media only screen and (max-width: 500px) {
-  .submit-button {
-    font-size: .5rem;
-    color: red;
-  }
-} */
-
 .about-image {
   background-image: url("./laptop.jpg");
   background-size: cover;
