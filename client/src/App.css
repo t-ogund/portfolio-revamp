@@ -32,9 +32,11 @@ blockquote {
 .blurb-paragraph {
   font-size: 2.5rem;
   font-weight: bold;
+  max-width: 100%;
 }
 
 .typewriter {
+  width: 65%;
   background-color: black;
   opacity: .7;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -83,30 +85,135 @@ blockquote {
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1220px) {
   .blurb-paragraph {
     font-size: 2.08rem;
+    max-width: 80%;
   }
 }
 
-@media screen and (max-width: 1003px) {
+/* @media screen and (min-width: 1003px) {
   .blurb-paragraph {
     font-size: 1.5rem;
+    width: 100%
+  }
+} */
+
+@media screen and (min-width: 1002px) {
+  .blurb-paragraph {
+    font-size: 1.5rem;
+    max-width: 72%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .blurb-paragraph {
+    font-size: 1.5rem;
+    max-width: 72%;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .blurb-paragraph {
+    font-size: 1.5rem;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 769px) {
   .blurb-paragraph {
     font-size: 1.5rem;
+    max-width: 50%
   }
   .intro {
     display: none;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .blurb-paragraph {
     font-size: 1.2rem;
+    max-width: 40%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .blurb-paragraph {
+    font-size: 1.2rem;
+    max-width: 54%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .blurb-paragraph {
+    font-size: 1.2rem;
+    max-width: 54%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .blurb-paragraph {
+    font-size: 1.2rem;
+    max-width: 54%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .blurb-paragraph {
+    font-size: 1.2rem;
+    max-width: 54%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blurb-paragraph {
+    font-size: 1.2rem;
+    max-width: 54%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .blurb-paragraph {
+    font-size: 1.2rem;
+    max-width: 65%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .blurb-paragraph {
+    font-size: 1rem;
+    max-width: 68%;
+  }
+  .intro {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .blurb-paragraph {
+    font-size: .8rem;
+    max-width: 68%;
   }
   .intro {
     display: none;
@@ -220,3 +327,19 @@ blockquote {
   color: white;
 }
 
+.fa-chevron-down {
+  color: white;
+  font-size: 4rem;
+  /* margin-top: 50px; */
+  text-align: center;
+  animation-name: pointer;
+  animation-duration: 1s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pointer {
+  0% {top: 0px}
+  100% {top: 50px}
+}
