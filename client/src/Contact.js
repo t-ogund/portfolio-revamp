@@ -53,12 +53,12 @@ class Contact extends React.Component {
             <div className="container-fluid bg-dark handshake">
                 <div className="row" id="contact">
                     <div className="col d-flex justify-content-center mt-5">
-                        <h2>Contact Me</h2>
+                        <h2 className="contact-header">Contact Me</h2>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col d-flex justify-content-center align-items-center">
-                        <h3>Let's bring your ideas to life!</h3>
+                        <h3 className="contact-header">Let's bring your ideas to life!</h3>
                     </div>
                 </div>
 

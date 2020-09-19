@@ -9,8 +9,8 @@ function Blurb() {
                 </div>
             </div>
             <div className="row d-flex justify-content-center">
-                <div className="col-4 d-flex justify-content-center">
-                    <i class="fas fa-chevron-down"></i>
+                <div className="col-4 d-flex justify-content-center" id="">
+                    <a href="#projects"><i class="fas fa-chevron-down"></i></a>
                 </div>
             </div>
         </div>
