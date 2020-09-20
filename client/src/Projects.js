@@ -53,18 +53,22 @@ class Projects extends React.Component {
                     <div className="row">
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
                             <Card title="Starwatch" tech="Built with Bootstrap, Javascript, AJAX, NASA APOD API" image="./starwatch-standard.JPG"
-                            link="https://t-ogund.github.io/star-watch/" github="https://github.com/t-ogund/star-watch"/>
+                            link="https://t-ogund.github.io/star-watch/" github="https://github.com/t-ogund/star-watch" googleTracker=""
+                            projectViewer="" category="Viewed Project" action="Clicked Starwatch" label="Starwatch"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
                             <Card title="Weather App" tech="Built with HTML, CSS, Javascript, AJAX, Weatherbit API" image="./weather-app.JPG"
-                            link="https://t-ogund.github.io/js-weather-app/" github="https://github.com/t-ogund/js-weather-app"/>
+                            link="https://t-ogund.github.io/js-weather-app/" github="https://github.com/t-ogund/js-weather-app"
+                            category="Viewed Project" action="Clicked Weather App" label="Weather App"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
                             <Card title="Restaurant Website" tech="Modern site built with Bootstrap and Javascript" image="./restaurant-site.JPG"
-                            link="https://t-ogund.github.io/restaurant-website/" github="https://github.com/t-ogund/restaurant-website"/>
+                            link="https://t-ogund.github.io/restaurant-website/" github="https://github.com/t-ogund/restaurant-website"
+                            category="Viewed Project" action="Clicked Restaurant Website" label="Restaurant"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="Portfolio" tech="Built with React, Bootstrap, and Node.JS" image="./portfoliov2.JPG" link="https://lit-reef-01007.herokuapp.com/" github="https://github.com/t-ogund/portfolio-new-v2"/>
+                            <Card title="Portfolio" tech="Built with React, Bootstrap, and Node.JS" image="./portfoliov2.JPG" link="https://lit-reef-01007.herokuapp.com/" github="https://github.com/t-ogund/portfolio-new-v2"
+                            category="Viewed Project" action="Clicked Portfolio" label="Portfolio"/>
                         </div>
                     </div>
                 </div>
