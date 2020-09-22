@@ -220,7 +220,7 @@ blockquote {
 
 .footer {
   background: linear-gradient(349deg, #020733, #6280cc);
-  height: 25vh;
+  /* height: 25vh; */
 }
 
 .fab {
