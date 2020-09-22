@@ -341,3 +341,10 @@ blockquote {
   0% {top: 0px; opacity: 0}
   100% {top: 50px; opacity: 1}
 }
+
+@media only screen and (max-height: 375px) {
+  @keyframes pointer {
+    0% {top: -50px; opacity: 0}
+    100% {top: 0px; opacity: 1}
+  }
+}
