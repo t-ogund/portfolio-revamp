@@ -14,8 +14,8 @@ class Footer extends React.Component {
                     <div className="col">
                     </div>
                     <div className="col d-flex justify-content-center align-items-center mt-5">
-                        <a href="https://www.linkedin.com/in/toye-ogundepo-1bb416151/" target="_blank"><i className="fab fa-linkedin mr-4"></i></a>
-                        <a href="https://github.com/t-ogund" target="_blank"><i className="fab fa-github-square"></i></a>
+                        <a onClick={ ()=> Event(this.props.category, this.props.action, this.props.label)} href="https://www.linkedin.com/in/toye-ogundepo-1bb416151/" target="_blank"><i className="fab fa-linkedin mr-4"></i></a>
+                        <a onClick={ ()=> Event(this.props.category, this.props.action, this.props.label)} href="https://github.com/t-ogund" target="_blank"><i className="fab fa-github-square"></i></a>
                         {/* <a href="" target="_blank"><i className="fab fa-twitter-square ml-4"></i></a> */}
                     </div>
                     <div className="col d-flex justify-content-center align-items-center mt-5 back-to-top">
