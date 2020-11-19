@@ -52,7 +52,7 @@ class Projects extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
-                            <Card title="E-Commerce Store" tech="Built with Bootstrap, Javascript, AJAX" image="./e-commerce3.JPG" link="https://t-ogund.github.io/e-commerce-shoe-store/index.html" github="https://github.com/t-ogund/e-commerce-shoe-store" googleTracker=""
+                            <Card title="E-Commerce Store" tech="Built with Bootstrap, Javascript, AJAX" image="./e-commerce4.JPG" link="https://t-ogund.github.io/e-commerce-shoe-store/index.html" github="https://github.com/t-ogund/e-commerce-shoe-store" googleTracker=""
                             projectViewer="Viewed Project" category="Viewed Project" action="Clicked E-Commerce Store" label="E-Commerce"/>
                         </div>
                         <div className="col-lg-4 mb-3 d-flex justify-content-center">
