@@ -1,6 +1,5 @@
-html, body {
+html {
   scroll-behavior: smooth;
-  height: 100%;
 }
 
 #projects {
@@ -240,10 +239,7 @@ blockquote {
 
 .footer {
   background: linear-gradient(349deg, #020733, #6280cc);
-  /* width: 100%;
-  padding: 0;
-  margin: 0; */
-  /* min-height: 10vh; */
+  /* height: 25vh; */
 }
 
 .fab {
@@ -272,7 +268,7 @@ blockquote {
 }
 
 .about-row {
-  /* height: 80vh; */
+  height: 78vh;
   display: flex;
   align-items: center;
 }
@@ -282,7 +278,7 @@ blockquote {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 55vh;
   margin: 0 auto;
   
 }
@@ -303,10 +299,6 @@ blockquote {
   font-weight: 500;
   padding: 0 70px;
   line-height: 2.2rem;
-}
-
-.about-row-container {
-  height: 78vh;
 }
 
 @media screen and (max-width: 911px) {
@@ -382,11 +374,5 @@ blockquote {
   @keyframes pointer {
     0% {top: -50px; opacity: 0}
     100% {top: 0px; opacity: 1}
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .footer {
-    margin-top: 10rem;
   }
 }
