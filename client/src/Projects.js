@@ -7,6 +7,8 @@ import { ReactComponent as JS } from "./javascript.svg";
 import { ReactComponent as NODEJS } from "./nodejs.svg";
 import { ReactComponent as REACT } from "./react.svg";
 import { ReactComponent as BOOTSTRAP } from "./bootstrap-logo.svg";
+import { FadeTransform, Fade, Stagger } from 'react-animation-components'
+
 
 class Projects extends React.Component {
     constructor(props) {
@@ -21,17 +23,19 @@ class Projects extends React.Component {
             <React.Fragment>
                 <div className="container mt-5 mb-5 project-container">
                     <div id="tech-section">
-                        <div className="row d-flex justify-content-center">
+                        <Fade in>
+                            <div className="row d-flex justify-content-center">
+                                    <div className="col-sm-3 tech-section d-flex justify-content-center">
+                                        <HTML style={{height: 150, width: 150}}/>
+                                    </div>
                                 <div className="col-sm-3 tech-section d-flex justify-content-center">
-                                    <HTML style={{height: 150, width: 150}}/>
+                                    <CSS style={{height: 150, width: 150}}/>
                                 </div>
-                            <div className="col-sm-3 tech-section d-flex justify-content-center">
-                                <CSS style={{height: 150, width: 150}}/>
+                                <div className="col-sm-3 tech-section d-flex justify-content-center">
+                                    <JS style={{height: 150, width: 150}}/>
+                                </div>
                             </div>
-                            <div className="col-sm-3 tech-section d-flex justify-content-center">
-                                <JS style={{height: 150, width: 150}}/>
-                            </div>
-                        </div>
+                        </Fade>
                         <div className="row d-flex justify-content-center">
                             <div className="col-sm-3 tech-section d-flex justify-content-center">
                                 <BOOTSTRAP style={{height: 95, width: 95, paddingBottom: "0px", marginTop: "35px"}}/>

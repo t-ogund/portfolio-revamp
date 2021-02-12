@@ -7,7 +7,7 @@ function About(props) {
     return (
         <React.Fragment>
             <Navbar_Component />
-            <div className="container-fluid">
+            <div className="container-fluid about-row">
                 <Row>
 
                     <Col className="about-text" md={6}>
@@ -16,10 +16,8 @@ function About(props) {
                     <Col className="about-image" md={6}>
                     </Col>
                 </Row>
-                <Row>
-                    <Footer />
-                </Row>
             </div>
+            <Footer />
         </React.Fragment>
     )
 }

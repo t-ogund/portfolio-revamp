@@ -26,6 +26,25 @@ html {
   background-size: cover;
 }
 
+/* .card-img-top {
+  background-color: black;
+} */
+
+/* .card-img-top:hover {
+  background-color: black;
+  border: 5px solid red;
+} */
+
+.card-img-overlay {
+  /* background-color: red; */
+}
+
+/* .card-img-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 45%;
+  transition: .4s;
+} */
+
 blockquote {
   color: white;
   text-align: center;
@@ -248,12 +267,20 @@ blockquote {
   margin: 25px 0;
 }
 
+.about-row {
+  height: 78vh;
+  display: flex;
+  align-items: center;
+}
+
 .about-image {
   background-image: url("./laptop.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 67.5vh;
+  height: 55vh;
+  margin: 0 auto;
+  
 }
 
 .about-text {
@@ -302,10 +329,11 @@ blockquote {
   width: 400px;
 }
 
-.layer:hover {
+/* .layer:hover {
   border: 1px solid red;
   background-color: rgba(0,0,0,.5);
-}
+  width: 50%;
+} */
 
 .fa-chevron-up {
   font-size: 3rem;
