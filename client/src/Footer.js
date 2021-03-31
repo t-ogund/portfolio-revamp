@@ -49,7 +49,7 @@ class Footer extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col-sm-12 d-flex justify-content-center align-items-center mt-3">
-                        <p style={{color: "white"}}><i class="far fa-copyright"></i> Toye Ogundepo 2020</p>
+                        <p style={{color: "white"}}><i class="far fa-copyright"></i> Toye Ogundepo 2021</p>
                     </div>
                 </div>
             </div>
