@@ -37,7 +37,7 @@ app.post("/api/form", (req, res) => {
             service: "gmail",
             auth: {
                 user: "togun.business@gmail.com",
-                pass: "testingtesting1234!"
+                pass: "getHired12!"
             }
         });
 

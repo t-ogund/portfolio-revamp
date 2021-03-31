@@ -19,7 +19,7 @@ class Contact extends React.Component {
         
     }
 
-    handleChange = e => {
+    handleChange(e) {
         this.setState({ [e.target.name]: e.target.value })
     }
 
@@ -45,7 +45,7 @@ class Contact extends React.Component {
             message
         })
 
-
+        console.log(this.state)
     }
 
     render() {

@@ -7,7 +7,7 @@ import { ReactComponent as JS } from "./javascript.svg";
 import { ReactComponent as NODEJS } from "./nodejs.svg";
 import { ReactComponent as REACT } from "./react.svg";
 import { ReactComponent as BOOTSTRAP } from "./bootstrap-logo.svg";
-import { FadeTransform, Fade, Stagger } from 'react-animation-components'
+// import { FadeTransform, Fade, Stagger } from 'react-animation-components'
 
 
 class Projects extends React.Component {
@@ -23,7 +23,7 @@ class Projects extends React.Component {
             <React.Fragment>
                 <div className="container mt-5 mb-5 project-container">
                     <div id="tech-section">
-                        <Fade in>
+                        {/* <Fade in> */}
                             <div className="row d-flex justify-content-center">
                                     <div className="col-sm-3 tech-section d-flex justify-content-center">
                                         <HTML style={{height: 150, width: 150}}/>
@@ -35,7 +35,7 @@ class Projects extends React.Component {
                                     <JS style={{height: 150, width: 150}}/>
                                 </div>
                             </div>
-                        </Fade>
+                        {/* </Fade> */}
                         <div className="row d-flex justify-content-center">
                             <div className="col-sm-3 tech-section d-flex justify-content-center">
                                 <BOOTSTRAP style={{height: 95, width: 95, paddingBottom: "0px", marginTop: "35px"}}/>
