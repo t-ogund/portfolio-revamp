@@ -27,6 +27,7 @@
   "homepage": "https://github.com/t-ogund/portfolio-new-v2#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "babel-jest": "^26.6.3",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.6.0",
     "concurrently": "^5.3.0",
